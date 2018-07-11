@@ -1,0 +1,29 @@
+{
+  "name": "alipaczka-cli",
+  "version": "1.0.0",
+  "description": "Check your package tracking with one command! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js LX495445887NL"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artur9010/alipaczka-cli.git"
+  },
+  "keywords": [
+    "alipaczka"
+  ],
+  "author": "artur9010",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artur9010/alipaczka-cli/issues"
+  },
+  "homepage": "https://github.com/artur9010/alipaczka-cli#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cli-table": "^0.3.1",
+    "colors": "^1.3.0",
+    "request": "^2.87.0",
+    "utf8": "^3.0.0"
+  }
+}
