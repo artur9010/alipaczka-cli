@@ -48,7 +48,7 @@ request("https://alipaczka.pl/pobierz.php?q=" + trackingNumber, function(error, 
             console.log(title.blue)
             var table = new cliTable({
                 head: headers
-              , colWidths: [21, (process.stdout.columns-25)/2, (process.stdout.columns-25)/2]
+              , colWidths: [21, Math.floor((process.stdout.columns-25)/2), Math.floor((process.stdout.columns-25)/2)]
             });
 
             for(i = 0; i < otherThings.length/headers.length; i++){
