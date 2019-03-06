@@ -1,5 +1,5 @@
-# alipaczka-cli
-## Best (and the only one in the world) CLI tool for alipaczka.pl
+# 🛬 alipaczka-cli
+## World first CLI tool for alipaczka.pl tracking service
 
 ![Example screenshoot](https://i.imgur.com/KA5kCzF.png)
 
