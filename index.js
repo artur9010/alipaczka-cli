@@ -25,7 +25,6 @@ request("https://alipaczka.pl/mobileAPI2.php?number=" + trackingNumber, function
 
 
     console.log("Tracking number: " + trackingNumber);
-    //console.log("Delivered: " + "no"); //todo
     console.log("Package status:");
 
     var table = new cliTable({
@@ -33,7 +32,7 @@ request("https://alipaczka.pl/mobileAPI2.php?number=" + trackingNumber, function
         colWidths: [30, (process.stdout.columns-33)]
     });
 
-    for(x = json.DataEntry.length - 1; x > 0; x--){ //from last to first
+    for(x = 0; x < json.DataEntry.reverse().length; x++){
         table.push(
             [
                 moment(new Date(json.DataEntry[x]["time"] * 1000)).format("MMMM Do YYYY, H:mm:ss"),
