@@ -1,6 +1,6 @@
 {
   "name": "alipaczka-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Check your package tracking with one command! ",
   "main": "index.js",
   "scripts": {
