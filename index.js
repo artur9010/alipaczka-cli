@@ -25,6 +25,8 @@ request("https://alipaczka.pl/mobileAPI2.php?number=" + trackingNumber, function
 
 
     console.log("Tracking number: " + trackingNumber);
+    console.log("Delivered: " + json.isDelivered);
+    console.log("");
     console.log("Package status:");
 
     var table = new cliTable({
